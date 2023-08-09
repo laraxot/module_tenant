@@ -23,7 +23,7 @@
         "phpstan/extension-installer": "^1.1",
         "phpunit/phpunit": "^9.3",
         "psalm/plugin-laravel": "*",
-        "spatie/invade": "^1.0",
+        "spatie/invade": "^2.0",
         "spatie/laravel-typescript-transformer": "^2.1.6",
         "spatie/pest-plugin-snapshots": "^1.1",
         "spatie/phpunit-snapshot-assertions": "^4.2",
