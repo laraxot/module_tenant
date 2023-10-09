@@ -15,6 +15,6 @@ jobs:
             - run: ./vendor/bin/psalm --init
             - run: ./vendor/bin/psalm-plugin enable psalm/plugin-laravel
             - run: ./vendor/bin/psalm --alter --issues=all  --dry-run
-            - uses: stefanzweifel/git-auto-commit-action@v4
+            - uses: stefanzweifel/git-auto-commit-action@v5
               with:
                 commit_message: psalm
